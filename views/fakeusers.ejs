@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>Fake Users</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>DevTools Bitrix</h1>
+        </div>
+        <div class="auth-btn">
+        </div>
+    </header>
+    <div class="content">
+        <div class="back">
+            <div class="link">
+                <img class="btn-back" src="https://www.svgrepo.com/show/39271/back.svg" alt="">
+                <h3>Back</h3>
+            </div>
+        </div>
+        <div class="fakeuser-wrap child-wrap">
+            <form id="fakeuser" class="fakeuser-form form">
+                <input type="number" name="count" id="count" placeholder="Set count of users">
+                <button type="submit" id="users-btn">Create Users</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="../js/index.js"></script>
+<script src="../js/faker.js"></script>
+</html>

@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 5vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.912);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.39);
+}
+.logo {
+    cursor: pointer;
+}
+
+.logo h1 {
+    color: #ecf0f1;
+}
+
+.auth-btn > a {
+    text-decoration: none;
+    border: 3px solid rgb(1, 107, 1);
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(103, 216, 27);
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-shadow: 2px 2px 3px black;
+}
+
+.content {
+    min-height: 95vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.card-wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.card {
+    position: relative;
+    width: 30%;
+    height: 40vh;
+    margin: 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.445);
+}
+
+.big-card {
+    height: 85vh;
+}
+
+.card-data-faker {
+    background-image: url('https://www.zr-tech.co.uk/images/Blogs/Covers/1970-01-01-1640083967.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-list-injector {
+    background-image: url('https://winpeaker.com/wp-content/uploads/2021/05/MS-Excel-3974359.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-dev {
+    background-image: url('https://phonoteka.org/uploads/posts/2021-07/1625285878_33-phonoteka-org-p-programmnii-kod-oboi-oboi-krasivo-35.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-tracking {
+    background-image: url('https://www.verywellmind.com/thmb/RpXQi7wiQlMvzr8KgetrpFF28Mc=/2230x1347/filters:fill(ABEAC3,1)/to-do-list-desifoto-56a905845f9b58b7d0f761e9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card > .card-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 10%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.562);
+    text-align: center;
+    font-size: 28px;
+    transition: 0.9s ease;
+    box-shadow: 0 0 25px black;
+}
+
+.card:hover > .card-title{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.712);
+    font-size: 68px;
+}
+
+.card > .card-title > a{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.user-card {
+    background-image: url('https://aziest1bid161.blob.core.windows.net/ru-uploads/2019/06/img3_1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 215%;
+    background-position: -150px 0px;
+}
+
+.lead-card {
+    background-image: url('https://blog.richworldwide.com/wp-content/uploads/2020/09/iStock-614746826-1.jpg');
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: -350px 0px;
+}
+
+.deal-card {
+    background-image: url('https://www.pikatech.com/wp-content/uploads/2016/03/bigstock-Business-people-shaking-hands-82830557.jpg');
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-position: -350px 0px;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.in-progress {
+    position: relative;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://www.rstradehouse.com/pr_img/1002110015/20200929/52583781/20-Most-Common-Work-from-Home-Job-Titles.jpg');
+    background-size: 100%;
+}
+.in-progress > .dev-title > h1{
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 4px 3px black;
+}
+.fakeuser-wrap {
+    width: 100%;
+    height: 95vh;
+    background-image: url('https://aziest1bid161.blob.core.windows.net/ru-uploads/2019/06/img3_1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 5vh;
+    flex-direction: row;
+}
+
+.back > .link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.child-wrap {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-back {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.686);
+    border-radius: 30px;
+    min-height: 300px;
+    width:450px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.719);
+}
+
+.form > input {
+    background: rgba(255, 255, 255, 0.484);
+    border: 3px solid lightslategray;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    outline: none;
+    border-radius: 10px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.form > button {
+    width: 300px;
+    background:rgb(0, 155, 34);
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
